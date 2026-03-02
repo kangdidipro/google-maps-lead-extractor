@@ -1,22 +1,30 @@
-# 🚀 G-LANCE: Automated Business Intelligence Tool
-##
+# 🚀 G-LANCE: Google Maps Lead Extractor
 
-**G-LANCE** is a professional-grade B2B lead generation engine built with Python and Playwright. It automates the extraction of business data from Google Maps, including names, addresses, phone numbers, websites, and location links.
+![Python Version](https://img.shields.io/badge/python-3.13+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Playwright](https://img.shields.io/badge/framework-Playwright-orange.svg)
+![Status](https://img.shields.io/badge/status-production--ready-brightgreen.svg)
+
+**G-LANCE** is a high-performance automation tool designed for B2B lead generation. It bypasses manual searching by deep-scraping business details directly from Google Maps and exporting them into organized Excel reports.
 
 ## ✨ Key Features
-- **Deep Extraction:** Scrapes comprehensive business details automatically.
-- **CLI Support:** Accepts dynamic search keywords via terminal arguments.
-- **Anti-Bot Protection:** Implements random delays and human-like scrolling.
-- **Auto-Export:** Generates structured Excel (.xlsx) reports instantly.
+- **Deep Data Mining:** Extracts Name, Address, Phone, Website, and Google Maps URL.
+- **Dynamic Search:** Input any keyword via CLI.
+- **Anti-Detection:** Built-in human behavior simulation with random delays.
+- **Professional Reports:** Automatic export to `.xlsx` format.
 
 ## 🛠️ Tech Stack
-- **Language:** Python 3.13+
+- **Engine:** Python 3.13
 - **Automation:** Playwright (Chromium)
-- **Data Analysis:** Pandas
-- **Export Engine:** OpenPyXL
+- **Data Handling:** Pandas & OpenPyXL
 
-## 🚀 Quick Installation
-1. **Clone the repository:**
+## 🚀 How to Run
+
+1. **Clone & Install:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/g-lince.git](https://github.com/YOUR_USERNAME/g-lince.git)
-   cd g-lince
+   git clone [https://github.com/kangdidipro/google-maps-lead-extractor.git](https://github.com/kangdidipro/google-maps-lead-extractor.git)
+   cd google-maps-lead-extractor
+   python -m venv venv
+   source venv/Scripts/activate  # For Windows
+   pip install -r requirements.txt
+   playwright install chromium
