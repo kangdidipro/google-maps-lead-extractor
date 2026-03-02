@@ -1,4 +1,5 @@
 # 🚀 G-LANCE: Automated Business Intelligence Tool
+##
 
 **G-LANCE** is a professional-grade B2B lead generation engine built with Python and Playwright. It automates the extraction of business data from Google Maps, including names, addresses, phone numbers, websites, and location links.
 
